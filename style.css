@@ -1,0 +1,44 @@
+a {text-decoration: none}
+
+.nav-item {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.page-header {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.page-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.page-sub-header {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.products-list {
+    display: flex;
+}
+
+.product-wrapper:not(:last-child) {
+    margin-right: 20px;
+}
+
+.product-wrapper img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
